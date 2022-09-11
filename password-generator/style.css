@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #00008B;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+
+    position: absolute;
+    padding: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: #0e0e32;
+    width: 25%;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.main_input {
+    background-color: #000001	;
+    border: 1px solid black;
+}
+.input_icon{
+    display: flex;
+    position: relative;
+}
+.copy_icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.line {
+    display: flex;
+    margin-bottom: 10px;
+}
+.main_input, button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+button{
+    background-color: #0000CD	;
+}
+.check{
+margin-left: auto;}
+.length_input{
+    width: 15%;
+    color: black;
+}
